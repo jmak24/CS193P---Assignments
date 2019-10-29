@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE41E485220FC3A500D93A40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41E484220FC3A500D93A40 /* AppDelegate.swift */; };
+		EE41E487220FC3A500D93A40 /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41E486220FC3A500D93A40 /* DocumentBrowserViewController.swift */; };
+		EE41E48B220FC3A500D93A40 /* ImageGalleryDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41E48A220FC3A500D93A40 /* ImageGalleryDocument.swift */; };
+		EE41E48E220FC3A500D93A40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE41E48C220FC3A500D93A40 /* Main.storyboard */; };
+		EE41E490220FC3A800D93A40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE41E48F220FC3A800D93A40 /* Assets.xcassets */; };
+		EE41E493220FC3A800D93A40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE41E491220FC3A800D93A40 /* LaunchScreen.storyboard */; };
+		EE41E4A02210C0D200D93A40 /* ImageGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41E49B2210C0D200D93A40 /* ImageGallery.swift */; };
+		EE41E4A12210C0D200D93A40 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41E49C2210C0D200D93A40 /* ImageViewController.swift */; };
+		EE41E4A22210C0D200D93A40 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41E49D2210C0D200D93A40 /* ImageCollectionViewCell.swift */; };
+		EE41E4A32210C0D200D93A40 /* ImageGalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41E49E2210C0D200D93A40 /* ImageGalleryViewController.swift */; };
+		EE41E4A42210C0D200D93A40 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41E49F2210C0D200D93A40 /* Utilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE41E481220FC3A500D93A40 /* Persistant Image Gallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Persistant Image Gallery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE41E484220FC3A500D93A40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE41E486220FC3A500D93A40 /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
+		EE41E48A220FC3A500D93A40 /* ImageGalleryDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryDocument.swift; sourceTree = "<group>"; };
+		EE41E48D220FC3A500D93A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE41E48F220FC3A800D93A40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE41E492220FC3A800D93A40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE41E494220FC3A800D93A40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE41E49B2210C0D200D93A40 /* ImageGallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageGallery.swift; path = "../../Assignment 6 - Persistant Image Gallery 2/PersistantImageGallery/ImageGallery.swift"; sourceTree = "<group>"; };
+		EE41E49C2210C0D200D93A40 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageViewController.swift; path = "../../Assignment 6 - Persistant Image Gallery 2/PersistantImageGallery/ImageViewController.swift"; sourceTree = "<group>"; };
+		EE41E49D2210C0D200D93A40 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCollectionViewCell.swift; path = "../../Assignment 6 - Persistant Image Gallery 2/PersistantImageGallery/ImageCollectionViewCell.swift"; sourceTree = "<group>"; };
+		EE41E49E2210C0D200D93A40 /* ImageGalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageGalleryViewController.swift; path = "../../Assignment 6 - Persistant Image Gallery 2/PersistantImageGallery/ImageGalleryViewController.swift"; sourceTree = "<group>"; };
+		EE41E49F2210C0D200D93A40 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Utilities.swift; path = "../../Assignment 6 - Persistant Image Gallery 2/PersistantImageGallery/Utilities.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE41E47E220FC3A500D93A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE41E478220FC3A500D93A40 = {
+			isa = PBXGroup;
+			children = (
+				EE41E483220FC3A500D93A40 /* Persistant Image Gallery */,
+				EE41E482220FC3A500D93A40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE41E482220FC3A500D93A40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE41E481220FC3A500D93A40 /* Persistant Image Gallery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE41E483220FC3A500D93A40 /* Persistant Image Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				EE41E486220FC3A500D93A40 /* DocumentBrowserViewController.swift */,
+				EE41E49D2210C0D200D93A40 /* ImageCollectionViewCell.swift */,
+				EE41E49E2210C0D200D93A40 /* ImageGalleryViewController.swift */,
+				EE41E49C2210C0D200D93A40 /* ImageViewController.swift */,
+				EE41E49B2210C0D200D93A40 /* ImageGallery.swift */,
+				EE41E48A220FC3A500D93A40 /* ImageGalleryDocument.swift */,
+				EE41E49F2210C0D200D93A40 /* Utilities.swift */,
+				EE41E48C220FC3A500D93A40 /* Main.storyboard */,
+				EE41E49A220FC4F700D93A40 /* Supporting Files */,
+				EE41E494220FC3A800D93A40 /* Info.plist */,
+			);
+			path = "Persistant Image Gallery";
+			sourceTree = "<group>";
+		};
+		EE41E49A220FC4F700D93A40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE41E484220FC3A500D93A40 /* AppDelegate.swift */,
+				EE41E48F220FC3A800D93A40 /* Assets.xcassets */,
+				EE41E491220FC3A800D93A40 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE41E480220FC3A500D93A40 /* Persistant Image Gallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE41E497220FC3A800D93A40 /* Build configuration list for PBXNativeTarget "Persistant Image Gallery" */;
+			buildPhases = (
+				EE41E47D220FC3A500D93A40 /* Sources */,
+				EE41E47E220FC3A500D93A40 /* Frameworks */,
+				EE41E47F220FC3A500D93A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Persistant Image Gallery";
+			productName = "Persistant Image Gallery";
+			productReference = EE41E481220FC3A500D93A40 /* Persistant Image Gallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE41E479220FC3A500D93A40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jon Mak";
+				TargetAttributes = {
+					EE41E480220FC3A500D93A40 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = EE41E47C220FC3A500D93A40 /* Build configuration list for PBXProject "Persistant Image Gallery" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE41E478220FC3A500D93A40;
+			productRefGroup = EE41E482220FC3A500D93A40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE41E480220FC3A500D93A40 /* Persistant Image Gallery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE41E47F220FC3A500D93A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE41E493220FC3A800D93A40 /* LaunchScreen.storyboard in Resources */,
+				EE41E490220FC3A800D93A40 /* Assets.xcassets in Resources */,
+				EE41E48E220FC3A500D93A40 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE41E47D220FC3A500D93A40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE41E4A32210C0D200D93A40 /* ImageGalleryViewController.swift in Sources */,
+				EE41E4A22210C0D200D93A40 /* ImageCollectionViewCell.swift in Sources */,
+				EE41E4A02210C0D200D93A40 /* ImageGallery.swift in Sources */,
+				EE41E48B220FC3A500D93A40 /* ImageGalleryDocument.swift in Sources */,
+				EE41E4A12210C0D200D93A40 /* ImageViewController.swift in Sources */,
+				EE41E487220FC3A500D93A40 /* DocumentBrowserViewController.swift in Sources */,
+				EE41E4A42210C0D200D93A40 /* Utilities.swift in Sources */,
+				EE41E485220FC3A500D93A40 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE41E48C220FC3A500D93A40 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE41E48D220FC3A500D93A40 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE41E491220FC3A800D93A40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE41E492220FC3A800D93A40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE41E495220FC3A800D93A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE41E496220FC3A800D93A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE41E498220FC3A800D93A40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Persistant Image Gallery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JonMak.Persistant-Image-Gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE41E499220FC3A800D93A40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Persistant Image Gallery/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "JonMak.Persistant-Image-Gallery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE41E47C220FC3A500D93A40 /* Build configuration list for PBXProject "Persistant Image Gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE41E495220FC3A800D93A40 /* Debug */,
+				EE41E496220FC3A800D93A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE41E497220FC3A800D93A40 /* Build configuration list for PBXNativeTarget "Persistant Image Gallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE41E498220FC3A800D93A40 /* Debug */,
+				EE41E499220FC3A800D93A40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE41E479220FC3A500D93A40 /* Project object */;
+}
