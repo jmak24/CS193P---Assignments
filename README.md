@@ -5,7 +5,7 @@ The solutions for each assignment presented in Stanford's "developing iOS 11 app
 
 A game of memorization and matching cards. User has the option to change the theme of the cards.
 
-! [alt text] (https://github.com/jmak24/CS193P-Assignments/blob/master/GIFs/Set.gif)
+![alt text] (https://github.com/jmak24/CS193P-Assignments/blob/master/GIFs/Set.gif)
 
 ## Assignment 2 - Set:
 
