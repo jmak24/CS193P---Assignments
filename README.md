@@ -1,4 +1,4 @@
-# CS193P - Assignments 
+# Stanford CS193P - Assignments 
 The solutions for each assignment presented are for Stanford's CS193p (Developing Applications for iOS) Winter 2018 course.
 <br />
 
